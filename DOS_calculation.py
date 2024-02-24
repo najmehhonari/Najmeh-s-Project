@@ -9,7 +9,7 @@ with open('/Users/nhonari/DOS/DOSCAR', 'r') as doscar, open('/Users/nhonari/DOS/
         elif i>3005:
             pdos.write(line)
             
-#Split the PDOS of each atom for LYC
+#Split the PDOS of each atom for LYC!
 #DOS for spin up & down have the same positive sign
 
 output_file="/Users/nhonari/DOS/pdoss/DOS_{}.txt"
